@@ -1,0 +1,31 @@
+ 
+
+.hero-navbar-section{
+
+    background-image: url('../assests/MobileLandingBg.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover ensures the image scales properly */
+    background-position: center;
+    height: fit-content;
+    min-width: 100vw;
+    min-height: 100vh;
+  
+}
+@media (max-width:600px){
+    .hero-navbar-section{
+        height: 100vh;
+        width: 100%;
+    }
+}
+.bg-inone{
+    width: 100%;
+    position:absolute;
+    top: 0%;
+    z-index: -1;
+    height: 90vh;
+
+}
+.second-containers{
+    background-image: url("../assests/backgroundAi.png");
+    width: 100%;
+}

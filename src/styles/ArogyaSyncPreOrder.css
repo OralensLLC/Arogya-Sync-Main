@@ -1,0 +1,470 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #005670; /* Match background color */
+    white-space: nowrap;
+    padding: 14px 0;
+    margin-top: 3rem;
+}
+
+.marquee-text {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee-text span {
+    margin-right: 50px; /* Adjust spacing between phrases */
+    display: inline-block;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+  
+  .price-box span {
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  .preorder-button {
+    background: white;
+    color: #004f62;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .offer-section {
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .offer-section h2 {
+    color: #004f62;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .step {
+    background: #008ea1;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    color: #004f62;
+    font-weight: bold;
+  }
+  
+
+
+  /* ...................... */
+
+ /* Main container */
+.arogya-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar styles */
+  .arogya-sidebar {
+    width: 250px;
+    background-size: cover;
+    height: auto;
+
+  }
+  
+  .price-container {
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .price-box {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .price-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .price-label {
+    font-style: italic;
+    margin: 5px 0 0 0;
+  }
+  
+  .normal-price {
+    background-color: white;
+    padding-bottom: 100%;
+    width: 85%;
+  }
+  
+  .normal-price .price-value {
+    color: #00585E;
+  }
+  
+  .normal-price .price-label {
+    color: #007A87;
+  }
+  
+  .preorder-price {
+    background-color: #007A87;
+    color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .launch-price {
+    background-color: #114149;
+    color: white;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+   
+  }
+  
+  .button-container {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+  
+  .preorder-button {
+    background-color: white;
+    color: #00585E;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .preorder-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Main content styles */
+  .arogya-container-wrapper{
+    display: flex;
+  }
+  .arogya-main {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .arogya-title {
+    color: #007A87;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 15px;
+  }
+  
+  .flow-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    width: 40%;
+    margin-top: 30px;
+  }
+  
+  .step-box {
+    background-color: #016070;
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  
+  .step-box p {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .arrow {
+    color: #016070;
+    font-size: 40px;
+    margin: 8px 0;
+  }
+  
+  .delivery-info {
+    color: #016070;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Container */
+
+.arogya-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f5962; /* Dark teal background */
+}
+
+.pricing-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px; /* Adjust width to fit the design */
+  padding: 20px;
+  padding-top: 0px;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-top: 0px;
+  background-color: #016070;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Common Pricing Card Styling */
+.pricing-card {
+  width: 80%;
+  padding: 20px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Normal Price */
+.pricing-card.normal {
+  padding-top: 0px;
+  height:100%;
+  background-color: white;
+  color: #0b4a52;
+  margin-bottom: 20px;
+}
+
+/* Pre-Order Price */
+.pricing-card.preorder {
+  margin-bottom: 20px;
+  padding-top: 0px;
+  background-color: #0d6874;
+  height: 100%;
+
+}
+
+/* Launch Price */
+.pricing-card.launch {
+  padding-top: 0px;
+  height: 100%;
+  background-color: #114149;
+
+}
+
+/* Price Text */
+.price {
+  font-size: 22px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+/* Label Text */
+.label {
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* Pre-Order Button */
+.preorder-btn {
+  margin-top: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0b4a52;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.preorder-btn:hover {
+  background-color: #f2f2f2;
+  transform: scale(1.05);
+}
+
+@media (max-width:470px){
+
+  .arogya-container-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .arogya-wrapper{
+    display: flex;
+
+  }
+  .marquee-container{
+    padding: 10px;
+  }
+  .marquee-text{
+    font-size: 1.0rem;
+  }
+  .pricing-container {
+    height: 70vh;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .arogya-title{
+    color: #016070;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  .step-box{
+    width:14rem ; 
+    height: 3rem;
+    margin-bottom: 0px;
+  }
+  .step-box p{
+    font-size: 1.1rem;
+  }
+  .arrow{
+   height: 4rem;
+   font-size: 3.2rem;
+
+    margin-top: 0px;
+  }
+  .flow-chart{
+    width: 100%;
+  }
+  .delivery-info{
+    width:100%;
+  }
+}
+@media (min-width:471px) and (max-width:768px){
+  .price-container{
+    height: 100%;
+  }
+  .price-container{
+    margin: 0px;
+  }
+  .arogya-container-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width:769px) and (max-width:1028px){
+
+  .arogya-container-wrapper{
+    display: flex;
+
+}
+ 
+}
+@media (min-width:1600px){
+  .step-box{
+    height: 3.9rem;
+  }
+  .step-box p{
+    font-size: 1.5rem;
+  }
+  .arogya-title{
+    font-size: 2.5rem;
+  }
+  .delivery-info{
+    font-size: 2.0rem;
+    width: 100%;
+  }
+  .marquee-container{
+    padding: 35px;
+  }
+  .marquee-text{
+    font-size: 2.2rem;
+  }
+  .pricing-container{
+    width: 26rem;
+  }
+
+  .preorder-btn{
+    font-size: 1.2rem;
+    padding: 24px 58px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  
+  }
+}

@@ -1,0 +1,116 @@
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 280px; /* Prevents shrinkage */
+    max-width: 25%; /* Ensures it doesn’t exceed container */
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    height: auto;
+}
+@media (max-width:600px) {
+    .feature-card{
+        width: 20%;
+        height: 20%;
+    }
+    
+}
+@media (min-width:1600px){
+    .feature-card{
+        height: 50%;
+
+    }
+    .feature-image {
+        width: 600px;
+        height: 600px;
+        object-fit: contain; /* Ensures images scale correctly */
+    }
+}
+
+.feature-card:hover {
+    transform: scale(1.05); /* Small hover effect */
+}
+
+.feature-image {
+    width: 100%;
+    object-fit: contain; /* Ensures images scale correctly */
+}
+
+.feature-overlay {
+    color: #ffffff;
+    padding: 15px;
+    word-wrap: break-word; /* Prevents text overflow */
+    position: absolute;
+    bottom: 5%;
+    
+}
+
+.feature-overlay h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.feature-overlay p {
+    font-size: 1.2rem;
+    margin-top: 3px;
+}
+.carsoule-text-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 5%;
+    margin-top: 0px;
+}
+.carousel-heading{
+    color: #016070;
+    font-size: 7.5rem;
+    margin-top: -60px;
+    text-align: right;
+}
+.carousel-para{
+    color: #016070;
+    font-size: 2.8rem;
+    text-align: right;
+    font-weight: 600;
+   
+}
+@media (max-width:1024px){
+    .carousel-heading{
+        font-size: 2.5rem;
+        margin-top:20px;
+    }
+    .carousel-para{
+        font-size: 1.4rem;
+        margin-left: 1rem;
+       
+    }
+}
+
+@media (min-width:1028px) and (max-width:1600px){
+    .carousel-heading{
+        font-size: 5.5rem;
+        margin-top:-50px;
+    }
+    .carousel-para{
+        font-size: 2.2rem;
+    }
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 280px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; /* Prevents unwanted wrapping */
+}
+
